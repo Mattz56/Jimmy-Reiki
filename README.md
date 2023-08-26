@@ -1,1 +1,1 @@
-# Jimmy-Reiki
+# Jimmy-Reiki website // My first project
