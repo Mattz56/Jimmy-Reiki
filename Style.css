@@ -5,13 +5,11 @@
     box-sizing: border-box;
 }
 body {
-    /* --color-text: #affaac;
-    --color-fond: #4d0250; */
-    /* --color-text: #151342; */
     --color-fond: #FBF8BE;
     --color-text: #234E70;
     color: var(--color-fond);
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 p {
     font-family: 'Roboto Condensed', sans-serif;
@@ -29,6 +27,8 @@ hr {
 header {
     background: var(--color-fond);
     height: 100px;
+    position: fixed;
+    width: 100%;
 }
 #title {
     color: var(--color-text);
@@ -46,8 +46,8 @@ header nav {
     font-weight: 900;
 }
 nav a:hover {
-    border-bottom: 3px solid var(--color-text);
-    transition: border-bottom ease-in-out 0.2s;
+    border-bottom: 4px solid var(--color-text);
+    transition: border-bottom ease-in 0.3s;
 }
 a {
     text-decoration: none;
@@ -256,6 +256,11 @@ textarea {
 @media screen and (max-width:767px) {
     #entete, nav, #logo{
         display: none;
+    }
+    header {
+        position: relative;
+        width: 100%;
+        height: auto;
     }
     .navbar{
         display: flex;
