@@ -4,23 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/eb732a7a46.js" crossorigin="anonymous"></script>
+        <!-- GOOGLE FONTS-->
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         <title>Jimmy Reiki</title>
         <link href="Style.css" rel="stylesheet">
     </head>
     <body>
 
       <!-- HEADER -->
-
       <header>
         <div class="navbar">
           <h1 id="title">Jimmy<span class="span1">'</span>Reiki<span class="span1">.</span></h1>
           <nav class="sticky">
             <ul>
-              <li><a href="#title">Home</a></li>
+              <li><a href="#entete">Home</a></li>
               <li><a href="#m5c">Massages</a></li>
               <li><a href="#formations">Formations</a></li>
               <li><a href="#tarifs">Tarifs</a></li>
@@ -29,6 +30,9 @@
           </nav>
         </div>
       </header>
+      <div class="img-smartphone">
+        <img src="./Images/grosplanplante.jpg" alt="">
+      </div>
         <section id="entete">
           <!-- <h1><strong>Bienvenue,</strong><br>
           sur le site du bien-être.</h1> -->
@@ -36,7 +40,6 @@
         </section>
       
       <!-- MAIN -->
-
       <main>
         <section class="conteneur1">
           <div class="reiki">
@@ -154,7 +157,13 @@
             <button type="submit">Envoyer mon message</button>
           </form>
         </section>
+        <footer>
+          <div class="footer">
+            <button id="footer-scroll" onclick="scrollToTop()"><i class="uil uil-angle-up"></i></button>
+            <p>&copy; 2023 Jimmy'Reiki. Tous droits réservés.</p>
+          </div>
+        </footer>
       </main>
-    <script src="Script.js"></script>
+    <script src="app.js"></script>
     </body>
 </html>
